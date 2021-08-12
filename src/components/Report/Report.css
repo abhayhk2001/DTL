@@ -1,0 +1,36 @@
+.report {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 4rem;
+  margin-right: 1rem;
+}
+
+.report__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  padding: 1rem;
+  /* background-color: white; */
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0.8px rgba(0, 0, 0, 0.5);
+}
+
+.report__block:hover {
+  background-color: whitesmoke;
+}
+
+.report__title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.report__data {
+  font-family: "Karla", sans-serif;
+  font-size: 1.4rem;
+  color: black;
+}

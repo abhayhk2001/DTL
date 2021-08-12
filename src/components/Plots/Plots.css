@@ -1,0 +1,29 @@
+.plots {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.plots__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plots__button {
+  font-family: "Karla", sans-serif;
+  margin-top: 1rem;
+  cursor: pointer;
+  /* margin-left: 6rem; */
+  width: 150px;
+  height: 50px;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  background-color: #d83a56;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.plots__button:hover {
+  background-color: #ff616d;
+}

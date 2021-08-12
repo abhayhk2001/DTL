@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapbod {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  /* align-items: center; */
+}
+
+.mapbod__left {
+  margin-right: 3rem;
+}

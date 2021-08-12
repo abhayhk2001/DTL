@@ -1,0 +1,23 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mapbod {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.mapbod__left {
+  margin-right: 3rem;
+}
+
+.mapbod__right-down {
+  margin-top: 10rem;
+}

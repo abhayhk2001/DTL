@@ -1,0 +1,11 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
+.body__data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
